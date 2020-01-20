@@ -2,14 +2,14 @@ A Python script which 'samples' points from an image by treating their lightness
 Metropolis Hastings algorithm, and then uses these points to render a 'reconstruction' of the image. You can either
 download the command-line Python script (image-mcmc.py), or look at the notebook version 
 
-## Some example 
-Some examples of original images and their `sampled' versions:
+## Examples 
+Some examples of original images and their 'sampled' versions:
 
-![A bear](test-images/bear_small.jpg) ![A sampled bear](test-images/bear_mcmc_small.jpg)
+![A bear](test-images/bear.png)
 
 Here, the total number of samples drawn (including possible duplicates) is around 5 to 10 percent of the
 total number of pixels in the image. For some of the examples above, the standard deviation of the proposal
-distribution used is specified to vary in different parts of the image.
+distribution is specified to vary in different parts of the image.
 
 ## Instructions for use
 
