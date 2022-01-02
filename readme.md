@@ -27,7 +27,7 @@ works on Python
 * [OpenCV](https://pypi.org/project/opencv-python/) (`opencv>=4.5.3`)
 * [Scikit-Image](https://scikit-image.org/) (`scikit-image>=0.18.3`)
 
-There is also a notebook version which runs on Google Colab.
+There is also a [notebook version which runs on Google Colab](https://github.com/aday651/mcmc-pics/blob/master/image_mcmc.ipynb).
 
 The command-line script takes in a few arguments in order to render
 an image; for example, the second example was obtained via running
